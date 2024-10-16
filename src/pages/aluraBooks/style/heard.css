@@ -1,0 +1,46 @@
+
+
+.cabecalho{
+background-image: url(../../../public/assets/image/menu-hamburguer.png);
+height: 100%;
+background-repeat: no-repeat;
+width: 100%;
+display: flex-box;
+align-items: center;
+flex-direction: row;
+background-color: var(--cabecalho-cor-de-fundo);
+position: relative;
+}
+.lista-menu{
+display: none;
+position: absolute;
+top: 100%;
+}
+.botao:checked ~ .lista-menu{
+display: block;
+}
+nav{
+margin-left: 10px;
+margin-right: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo{
+    border-radius: 20px;
+}
+.lado-esquerdo{
+display: flex;
+align-items: center;
+gap: 15px;
+}
+.lado-direito{
+    display:flex ;
+    align-items: center;
+    gap: 20px;
+}
+nav a img {
+    width: 40px;
+    height: 40px;
+
+}

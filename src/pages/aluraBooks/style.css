@@ -1,0 +1,15 @@
+@import url(./style/heard.css);
+
+:root{
+    --cor-de-fundo: #ebecee;
+    --cabecalho-cor-de-fundo:#ffffff;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+h1 {
+    text-align: center;
+    font-size:large;
+}
