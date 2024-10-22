@@ -1,8 +1,13 @@
 @import url(./style/heard.css);
-
+@import url(./style/banner.css);
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
-    --cor-de-fundo: #ebecee;
+    --marrom: #2b1702c7 ;
+    --cor-de-fundo: #f8f8f8;
     --cabecalho-cor-de-fundo:#ffffff;
+    --cor-de-fundo-banner: #c4a17377;
+
 }
 
 body{

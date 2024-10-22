@@ -1,0 +1,36 @@
+
+
+.introducao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 15vh;
+    background-color: var(--cor-de-fundo-banner);
+    
+    }
+    .introducao h1{
+    font-size:x-large;
+    }
+    .introducao h2{
+     color: rgb(48, 47, 47);
+    }
+    .introducao input{
+        border-radius: 25px;
+        width: 55vh;
+        height: 7vh;
+    }
+    .lancamentos{
+    display: flex;
+    align-items: center;
+    padding: 17px;
+    width: 100%;
+    height: 15vh;
+    gap: 10px;
+    color: #ffff;
+    background-color:rgba(148, 105, 55, 0.959);
+    }
